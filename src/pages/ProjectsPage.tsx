@@ -1,3 +1,4 @@
+import { Ecomovie, Elchocrund } from "../assets/projects";
 import { projectsTypes } from "../shared/lib/types/type";
 import DescriptProject from "../shared/UI/project/DescriptProject";
 import ImgProject from "../shared/UI/project/ImgProject";
@@ -19,7 +20,7 @@ const projects: projectsTypes[] = [
     ],
     codeLink: "https://elchocrud.pro/",
     demoLink: "https://elchocrud.pro/",
-    image: "src/assets/projects/elchocrud.png",
+    image: Elchocrund,
   },
   {
     title: "Eco Movie 🐬",
@@ -28,25 +29,7 @@ const projects: projectsTypes[] = [
     stack: ["NextJS", "TypeScript", "ReduxToolkit", "RestAPI"],
     codeLink: "https://github.com/Elkhan2003/eco-movie",
     demoLink: "https://ecomovie.life/",
-    image: "src/assets/projects/eco-movie.png",
-  },
-  {
-    title: "WeDevX Selenium 🐬",
-    description:
-      "WeDevX Selenium was specifically created for SDET students to help them refine their skills in working with Selenium.",
-    stack: ["NextJS", "TypeScript", "Material UI"],
-    codeLink: "https://github.com/Elkhan2003/Selenium",
-    demoLink: "https://demo-project.wedevx.co/",
-    image: "src/assets/projects/wedevx-selenium.png",
-  },
-  {
-    title: "Ortodont Group 🪙",
-    description:
-      "The Ortodont Group website is the website of the Ortodont Group dental clinic. On the website, you can find information about the clinic, the services it provides, and also make an appointment.",
-    stack: ["NextJS", "TypeScript", "SCSS", "RestAPI"],
-    codeLink: "https://github.com/Elkhan2003/Next-Dentist",
-    demoLink: "https://next-dentist911.vercel.app/",
-    image: "src/assets/projects/ortodont-group.png",
+    image: Ecomovie,
   },
 ];
 

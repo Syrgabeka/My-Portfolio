@@ -2,7 +2,12 @@ import { motion } from "framer-motion";
 import "./scss/myGreeting.scss";
 import { animationIcons, animationText } from "../../lib/helpers/profile";
 import { Typewriter } from "react-simple-typewriter";
-import { LinkedinIcon, TelegramIcon, WhatsApp } from "../../../assets/svgs";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  TelegramIcon,
+  WhatsApp,
+} from "../../../assets/svgs";
 
 const MyGreeting = () => {
   return (
@@ -87,7 +92,7 @@ const MyGreeting = () => {
           initial="hidden"
           animate="visible"
         >
-          <img style={{ width: "40px" }} src="src/assets/svgs/github.svg" />
+          <img style={{ width: "40px" }} src={GithubIcon} />
         </motion.a>
       </div>
     </div>

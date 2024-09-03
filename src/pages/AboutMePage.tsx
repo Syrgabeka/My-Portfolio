@@ -1,21 +1,15 @@
 import "./scss/aboutMePage.scss";
+import Spiner from "../assets/img/spiner-pic.png";
+import About from "../assets/img/about-pic.png";
 
 const AboutMePage = () => {
   return (
     <div id="aboutMe" className="about__page">
       <div className="content">
         <div className="about__left">
-          <img
-            className="laptop__img"
-            src="src/assets/img/about-pic.png"
-            alt={"labtop"}
-          />
+          <img className="laptop__img" src={About} alt={"labtop"} />
           <span>
-            <img
-              className="about__spinner"
-              src="src/assets/img/spiner-pic.png"
-              alt="spinner"
-            />
+            <img className="about__spinner" src={Spiner} alt="spinner" />
           </span>
         </div>
         <div className="about__right">

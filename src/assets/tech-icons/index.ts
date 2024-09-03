@@ -2,31 +2,43 @@ interface techIconsTypes {
   icon: string;
   name: string;
 }
+import Windows from "./windows-icon.png";
+import HTML from "./html-icon.png";
+import CSS from "./css-icon.png";
+import JavaScript from "./java-script-icon.png";
+import TypeScript from "./type-script-icon.png";
+import React from "./react-icon.png";
+import Redux from "./redux-icon.png";
+import Vite from "./vite-icon.png";
+import SCSS from "./scss-icon.png";
+import Git from "./git-icon.png";
+import NodeJs from "./node-js-icon.png";
 
 export const tech_icons: techIconsTypes[] = [
-  { icon: "src/assets/tech-icons/windows-icon.png", name: "Windows" },
-  { icon: "src/assets/tech-icons/html-icon.png", name: "HTML" },
-  { icon: "src/assets/tech-icons/css-icon.png", name: "CSS" },
-  { icon: "src/assets/tech-icons/java-script-icon.png", name: "JavaScript" },
-  { icon: "src/assets/tech-icons/type-script-icon.png", name: "TypeScript" },
-  { icon: "src/assets/tech-icons/react-icon.png", name: "React" },
-  { icon: "src/assets/tech-icons/redux-icon.png", name: "Redux" },
-  { icon: "src/assets/tech-icons/vite-icon.png", name: "Vite" },
-  { icon: "src/assets/tech-icons/scss-icon.png", name: "SCSS" },
-  { icon: "src/assets/tech-icons/git-icon.png", name: "Git" },
-  { icon: "src/assets/tech-icons/node-js-icon.png", name: "Node.js" },
-  //   { icon: "src/assets/tech-icons/linux-icon.png", name: "Linux" },
-  //   { icon: "src/assets/tech-icons/mac-os-icon.png", name: "MacOS" },
-  //   { icon: "src/assets/tech-icons/express-icon.png", name: "Express" },
-  //   { icon: "src/assets/tech-icons/next-js-icon.png", name: "Next.js" },
-  //   { icon: "src/assets/tech-icons/fastify.png", name: "Fastify" },
-  //   { icon: "src/assets/tech-icons/nest-js-icon.png", name: "Nest.js" },
-  //   { icon: "src/assets/tech-icons/prisma.png", name: "Prisma" },
-  //   { icon: "src/assets/tech-icons/supabase.png", name: "Supabase" },
-  //   { icon: "src/assets/tech-icons/my-sql-icon.png", name: "MySQL" },
-  //   { icon: "src/assets/tech-icons/postgresql.png", name: "PostgreSQL" },
-  //   { icon: "src/assets/tech-icons/docker-icon.png", name: "Docker" },
+  { icon: Windows, name: "Windows" },
+  { icon: HTML, name: "HTML" },
+  { icon: CSS, name: "CSS" },
+  { icon: JavaScript, name: "JavaScript" },
+  { icon: TypeScript, name: "TypeScript" },
+  { icon: React, name: "React" },
+  { icon: Redux, name: "Redux" },
+  { icon: Vite, name: "Vite" },
+  { icon: SCSS, name: "SCSS" },
+  { icon: Git, name: "Git" },
+  { icon: NodeJs, name: "Node.js" },
 ];
+
+//   { icon: "src/assets/tech-icons/linux-icon.png", name: "Linux" },
+//   { icon: "src/assets/tech-icons/mac-os-icon.png", name: "MacOS" },
+//   { icon: "src/assets/tech-icons/express-icon.png", name: "Express" },
+//   { icon: "src/assets/tech-icons/next-js-icon.png", name: "Next.js" },
+//   { icon: "src/assets/tech-icons/fastify.png", name: "Fastify" },
+//   { icon: "src/assets/tech-icons/nest-js-icon.png", name: "Nest.js" },
+//   { icon: "src/assets/tech-icons/prisma.png", name: "Prisma" },
+//   { icon: "src/assets/tech-icons/supabase.png", name: "Supabase" },
+//   { icon: "src/assets/tech-icons/my-sql-icon.png", name: "MySQL" },
+//   { icon: "src/assets/tech-icons/postgresql.png", name: "PostgreSQL" },
+//   { icon: "src/assets/tech-icons/docker-icon.png", name: "Docker" },
 
 // export { default as mac_os_icon } from "./mac-os-icon.png";
 // export { default as linux_icon } from "./linux-icon.png";
