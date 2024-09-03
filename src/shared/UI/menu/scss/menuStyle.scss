@@ -1,0 +1,65 @@
+.menu-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 1s ease;
+
+  .menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 10px 4%;
+  }
+
+  .menu-items {
+    display: flex;
+    gap: 20px;
+    .active {
+      color: #af08bc;
+      // text-decoration: underline;
+      border-bottom: 1px solid #af08bc;
+    }
+  }
+}
+
+//////////////////////////////////////!
+// burgerMenuStyle.scss
+.burger-menu {
+  position: relative;
+}
+
+.burger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(30, 11, 56, 0.3);
+}
+
+.menu-dropdown Button {
+  display: block;
+  margin: 5px 0;
+  border-bottom: 1px solid white;
+  width: 200px;
+  text-align: left;
+}
+
+.burger-icon {
+  color: #ccc;
+  font-size: 2rem;
+}

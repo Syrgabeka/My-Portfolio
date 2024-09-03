@@ -1,0 +1,146 @@
+.about__page {
+  overflow: hidden;
+  padding-top: 70px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    @media (max-width: 1250px) {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .about__left {
+      position: relative;
+      display: flex;
+
+      @media (max-width: 1370px) {
+        margin-bottom: 30px;
+      }
+
+      .laptop__img {
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 25px;
+        border: 3px solid rgba(181, 9, 189, 0.5);
+        box-shadow: 0 0 10px rgba(181, 9, 189, 0.3);
+
+        @media (max-width: 767px) {
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          box-shadow: none;
+        }
+      }
+
+      span {
+        overflow: hidden;
+        position: absolute;
+        right: -50px;
+        bottom: -50px;
+        background: rgba(26, 15, 33, 0.95);
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(181, 9, 189, 0.3);
+
+        @media (max-width: 1370px) {
+          transform: scale(0.7);
+        }
+
+        @media (max-width: 450px) {
+          transform: scale(0.62);
+        }
+
+        @media (max-width: 767px) {
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+
+          box-shadow: none;
+        }
+
+        .about__spinner {
+          position: relative;
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          animation: rotate 9s linear infinite;
+        }
+
+        @keyframes rotate {
+          100% {
+            -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+          }
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          right: 65px;
+          bottom: 75px;
+
+          background: url("../../assets/img/working-emoji.png") no-repeat
+            center/cover;
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+
+    .about__right {
+      max-width: 600px;
+      color: white;
+
+      h1 {
+        background: -webkit-linear-gradient(-70deg, #b509bd 0%, #7a06b4 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(0, 0, 0, 0);
+
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+
+        @media (max-width: 500px) {
+          font-size: 21px;
+        }
+      }
+
+      h2 {
+        font-size: 25px;
+        margin-bottom: 2rem;
+
+        @media (max-width: 500px) {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+
+        border-radius: 7px;
+
+        @media (max-width: 500px) {
+          font-size: 14px;
+        }
+
+        @media (max-width: 767px) {
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

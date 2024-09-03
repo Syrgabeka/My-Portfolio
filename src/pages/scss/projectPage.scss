@@ -1,0 +1,37 @@
+.project__page {
+  padding: 2.5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  border: 1px solid rgba(181, 9, 189, 0.5);
+  box-shadow: 0 0 10px rgba(181, 9, 189, 0.3);
+  background: rgba(26, 15, 33, 0.3);
+  gap: 25px;
+
+  @media (max-width: 1150px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .pro__img {
+      order: 1;
+    }
+
+    .pro__text {
+      order: 2;
+    }
+  }
+}
+
+.row__reverse {
+  flex-direction: row-reverse;
+}
+
+#projects {
+  padding-top: 70px;
+  padding-bottom: 5%;
+}
+#projects h1 {
+  color: #af08bc;
+}

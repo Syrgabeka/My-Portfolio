@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: url("../assets/img/site-bg.webp") 0 0 / cover no-repeat scroll,
+    #1e0b38;
+  width: 100%;
+  min-height: 300vh;
+  align-items: center;
+
+  .component-container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+}
+
+/* Стилизация всей полосы прокрутки */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(30, 11, 56, 1);
+}
+
+/* Стилизация ползунка прокрутки */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: linear-gradient(
+    135deg,
+    rgba(70, 28, 142, 1) 0%,
+    rgba(224, 97, 0, 1) 100%
+  );
+}
+
+/* Стилизация фона полосы прокрутки */
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background-color: rgba(30, 11, 56, 1);
+}

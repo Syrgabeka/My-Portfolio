@@ -1,0 +1,28 @@
+.pro__img {
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  max-height: 280px;
+  border-radius: 25px;
+  border: 2px solid rgba(181, 9, 189, 0.5);
+  box-shadow: 0 0 10px rgba(181, 9, 189, 0.5);
+
+  @media (max-width: 767px) {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+    max-height: 200px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    transform: translateY(0%);
+    transition: transform 1.5s ease-in-out 0s;
+
+    &:hover {
+      transform: translateY(-50%);
+      transition: transform 1.5s ease-in-out 0s;
+    }
+  }
+}

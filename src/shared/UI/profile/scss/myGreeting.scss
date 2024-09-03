@@ -1,0 +1,74 @@
+.my__greeting-container {
+  color: white;
+  .my__name {
+    font-size: 50px;
+    font-weight: 700;
+
+    @media (max-width: 740px) {
+      font-size: 40px;
+    }
+    @media (max-width: 500px) {
+      font-size: 30px;
+    }
+    @media (max-width: 400px) {
+      font-size: 25px;
+    }
+  }
+
+  .my__experience {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+
+    @media (max-width: 740px) {
+      font-size: 35px;
+    }
+    @media (max-width: 500px) {
+      font-size: 28px;
+    }
+    @media (max-width: 400px) {
+      font-size: 24px;
+    }
+
+    span {
+      background: -webkit-linear-gradient(-70deg, #b509bd 0%, #7a06b4 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .my__self {
+    max-width: 700px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 28px;
+
+    @media (max-width: 768px) {
+      height: 115px;
+    }
+    @media (max-width: 400px) {
+      font-size: 20px;
+    }
+  }
+
+  .my__github {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: azure;
+
+      &:hover {
+        color: #b509bd;
+      }
+    }
+  }
+}
