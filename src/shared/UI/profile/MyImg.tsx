@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { animationImage } from "../../lib/helpers/profile";
+import myImg from "../../../assets/img/myPhoto1.jpg";
 
 const MyImg = () => {
   const [isTiltActive, setIsTiltActive] = useState<boolean>(true);
@@ -21,13 +22,14 @@ const MyImg = () => {
         tiltMaxAngleY={10}
         scale={1}
       >
-        <motion.div
+        <motion.img
+          src={myImg}
           className="shape"
           custom={1}
           variants={animationImage}
           initial="hidden"
           animate="visible"
-        ></motion.div>
+        ></motion.img>
       </Tilt>
     </div>
   );
