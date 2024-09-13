@@ -40,7 +40,7 @@ const MyGreeting = () => {
       >
         <Typewriter
           words={[
-            " As an experienced Front-end developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles showcasing my Front-end skills.",
+            "Frontend developer specializing in React and TypeScript. I am proficient in MUI and Redux Toolkit, and have worked in a team on real projects. A bit shy, but I have a lot of energy and enthusiasm to work efficiently.",
           ]}
           typeSpeed={16}
         />

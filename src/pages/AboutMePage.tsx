@@ -14,9 +14,9 @@ const AboutMePage = () => {
         </div>
         <div className="about__right">
           <h1>About me</h1>
-          <h2>Experienced Full-Stack Developer from Kyrgyzstan</h2>
+          <h2>Frontend Developer from Kyrgyzstan</h2>
           <p>
-            As a Full-Stack developer, my skill set covers a wide range of
+            As a Frontend developer, my skill set covers a wide range of
             technologies, including ORM and CRM. My primary objective is to
             create and maintain responsive websites with a focus on delivering
             impeccable user experiences and ensuring robust Back-End security.
