@@ -16,15 +16,13 @@ const AboutMePage = () => {
           <h1>About me</h1>
           <h2>Frontend Developer from Kyrgyzstan</h2>
           <p>
-            As a Frontend developer, my skill set covers a wide range of
-            technologies, including ORM and CRM. My primary objective is to
-            create and maintain responsive websites with a focus on delivering
-            impeccable user experiences and ensuring robust Back-End security.
-            My specialization lies in developing dynamic interfaces using clean
-            and optimized code. I am also adept at employing cutting-edge
-            development tools and adhering to advanced methodologies. My
-            involvement in cross-functional teams is a pivotal factor that
-            enables the creation of exceptional web applications.
+            I am a Frontend developer with experience with modern frontend
+            development technologies. I have deep knowledge in working with
+            JavaScript, React, TypeScript, Redux Toolkit, as well as in
+            developing applications using Next.js and Vite. Confident in using
+            CSS/SCSS to create adaptive and responsive interfaces. Experienced
+            with API integration through Axios and RTK Query. Actively use
+            development efficiency tools such as Git and npm.
           </p>
         </div>
       </div>
